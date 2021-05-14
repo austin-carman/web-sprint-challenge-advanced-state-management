@@ -25,7 +25,7 @@ export const addSmurf = (smurfInfo) => {
     return({type: ADD_SMURF, payload: smurfInfo});
 }
 
-export const errorMessage = (error) => {
+export const setError = (error) => {
     return({type: Error_Message, payload: error})
 }
 
